@@ -1,0 +1,1 @@
+# DearImage.detectBackgroundColor
