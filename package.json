@@ -1,0 +1,25 @@
+{
+	"name": "dear-image.detect-background-color",
+	"version": "0.0.0",
+	"description": "...",
+	"keywords": [],
+	"license": "MIT",
+	"author": "Sergej Sintschilin <seregpie@gmail.com>",
+	"files": [],
+	"main": "index.js",
+	"repository": "github:SeregPie/DearImage.detectBackgroundColor",
+	"scripts": {
+		"build": "rollup -c",
+		"prepublishOnly": "npm run build",
+		"test": "node test"
+	},
+	"devDependencies": {
+		"dear-image": "^0.0.0",
+		"rollup": "^1.19.4",
+		"rollup-plugin-buble": "^0.19.8",
+		"rollup-plugin-terser": "^5.1.1"
+	},
+	"peerDependencies": {
+		"dear-image": "^0.0.0"
+	}
+}
