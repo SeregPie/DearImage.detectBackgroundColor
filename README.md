@@ -19,7 +19,7 @@ Returns a promise that resolves to the detected background color.
 ### npm
 
 ```shell
-npm install dear-image.detect-background-color
+npm i dear-image.detect-background-color
 ```
 
 ### ES module
