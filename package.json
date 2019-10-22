@@ -1,7 +1,7 @@
 {
 	"name": "dear-image.detect-background-color",
-	"version": "0.0.0",
-	"description": "...",
+	"version": "1.0.0",
+	"description": "Detects the image background color.",
 	"keywords": [],
 	"license": "MIT",
 	"author": "Sergej Sintschilin <seregpie@gmail.com>",
@@ -13,13 +13,17 @@
 		"prepublishOnly": "npm run build",
 		"test": "node test"
 	},
+	"dependencies": {
+		"dear-image.detect-color-scheme": "^1.0.1"
+	},
 	"devDependencies": {
-		"dear-image": "^0.0.0",
-		"rollup": "^1.19.4",
+		"canvas": "^2.6.0",
+		"dear-image": "^1.2.0",
+		"rollup": "^1.25.1",
 		"rollup-plugin-buble": "^0.19.8",
-		"rollup-plugin-terser": "^5.1.1"
+		"rollup-plugin-terser": "^5.1.2"
 	},
 	"peerDependencies": {
-		"dear-image": "^0.0.0"
+		"dear-image": ">=1"
 	}
 }

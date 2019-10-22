@@ -8,7 +8,10 @@ let globals = {
 };
 
 export default {
-	external: Object.keys(globals),
+	external: [
+		...Object.keys(globals),
+		'dear-image.detect-color-scheme',
+	],
 	input: 'src/index.js',
 	plugins: [
 		buble(),
